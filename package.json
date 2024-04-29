@@ -1,17 +1,14 @@
 {
-  "name": "node",
-  "version": "1.0.0",
-  "description": "",
-  "main": "serial.js",
+  "name": "linux-uart-server",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "express": "^4.19.2",
     "raspi": "^6.0.1",
-    "raspi-serial": "^6.0.0"
+    "raspi-serial": "^6.0.0",
+    "ws": "^8.16.0"
   }
 }
